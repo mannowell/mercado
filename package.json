@@ -16,6 +16,7 @@
     "@capacitor/core": "7.4.3",
     "@capacitor/haptics": "7.0.2",
     "@capacitor/keyboard": "7.0.3",
+    "@capacitor/live-updates": "^0.4.0",
     "@capacitor/status-bar": "7.0.3",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",

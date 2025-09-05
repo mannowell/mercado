@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding-bottom: 20px;
+}
+
+.list-group-item {
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item.comprado {
+    background-color: #f8f9fa;
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.item-text {
+    flex-grow: 1;
+    margin: 0 15px;
+}
+
+.btn-group .btn {
+    margin-left: 5px;
+}
+
+.quantidade-badge {
+    min-width: 40px;
+    text-align: center;
+}
+
+.empty-icon {
+    opacity: 0.5;
+}
+
+@media (max-width: 576px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .btn-group .btn {
+        margin-left: 0;
+    }
+}

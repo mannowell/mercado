@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "appId": "com.example.meugestorcompras",
+            "root": ".",
+            "webBuildCommand": "npm run build",
+            "androidPath": "android"
+        }
+    ]
+}
