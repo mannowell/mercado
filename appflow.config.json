@@ -1,7 +1,8 @@
 {
+    "app_id": "2b5a0b10",
     "apps": [
         {
-            "appId": "com.example.meugestorcompras",
+            "app_id": "2b5a0b10",
             "root": ".",
             "webBuildCommand": "npm run build",
             "androidPath": "android"

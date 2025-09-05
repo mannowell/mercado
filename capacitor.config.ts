@@ -1,12 +1,12 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.example.meugestorcompras',
   appName: 'my-app',
   webDir: 'dist',
   plugins: {
     LiveUpdates: {
-      appId: 'com.example.meugestorcompras',
+      appId: '2b5a0b10',
       channel: 'Production',
       autoUpdateMethod: 'background',
       maxVersions: 2,
